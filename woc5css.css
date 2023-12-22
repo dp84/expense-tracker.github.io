@@ -1,0 +1,92 @@
+h1 {
+  background-color: rgb(191, 20, 191);
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url("expense3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+th {
+  background-color: red;
+  color: white;
+  margin: 5cm;
+  padding: 5px;
+  font-size: 0.75cm;
+  padding: 0.125cm;
+  width: 5cm;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+td {
+  background-color: yellow;
+  padding: 0.125cm;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+table {
+  background-color: chartreuse;
+  border: 100px;
+  border: radius 10px;
+  font-size: 0.75cm;
+  text-align: center;
+  padding: 0.25cm;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+caption {
+  margin-top: 0.3cm;
+  background-color: brown;
+  text-align: center;
+  font-size: 0.75cm;
+  padding: 0.25cm;
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-style: none;
+}
+
+button {
+  background-color: burlywood;
+  width: 150px;
+  font-size: 0.5cm;
+  margin-left: 10.25cm;
+  margin-top: 0.25cm;
+  width: 5cm;
+}
+
+.mybutton {
+  margin-left: 5.9cm;
+  width: 5cm;
+}
+
+.printtotal {
+  margin-top: 0.3cm;
+  background-color: rgb(20, 247, 231);
+  text-align: center;
+  font-size: 0.5cm;
+  padding: 0.25cm;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-style: none;
+  width: 10cm;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
