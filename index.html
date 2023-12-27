@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Expense App</title>
+    <title>Expense Tracker</title>
     <link rel="stylesheet" href="woc5css.css" />
     <style></style>
   </head>
   <body>
-    <h1><b>EXPENSE TRACKER</b></h1>
+    <h1><b>EXPENSE  TRACKER</b></h1>
     <table id="myTable">
       <caption>
         <b>Expense Table</b>
@@ -18,11 +18,15 @@
         <th>Expense</th>
         <th>Date</th>
         <th>Amount</th>
+        <th>Action</th>
       </tr>
     </table>
     <button onclick="addrow()"><b>Add Expense</b></button>
-    <button class="mybutton" onclick="delrow()"><b>Delete Expense</b></button>
-    <p class="printtotal" id="tot">Total Money Spent is 0</p>
+    <!-- <button class="mybutton" onclick="delrow()"><b>Delete Expense</b></button> -->
+    <p class="printtotal" id="tot">Total Money Spent Rs 0</p>
+    <footer class="foot">
+      &copy;Copyright <a href="mailto:devarshipatel874@gmail.com" target="_blank">Devarshi Patel</a> 2023 - All Rights Reserved.
+    </footer>
     <script src="woc5js.js"></script>
   </body>
 </html>
